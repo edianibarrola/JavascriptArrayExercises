@@ -1,9 +1,12 @@
 let theBools = [0,1,0,0,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1];
 let wikiArr =[];
 //your code here
-wikiWoko=(bool)=>{
-    for (bool in theBools){
+
+
+theBools.map( (bool) =>  (bool === 0) ? wikiArr.push('woko') : (bool === 1) ?  wikiArr.push('wiki') : null);
         
-    }
-}
-wikiArr = theBools.map(wikiWoko)
+
+     
+   
+    
+    console.log(wikiArr);

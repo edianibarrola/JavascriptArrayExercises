@@ -453,7 +453,7 @@
         {
             "slug": "21.3-Filter-list",
             "title": "21.3-Filter-list",
-            "done": false,
+            "done": true,
             "path": "exercises/21.3-Filter-list",
             "translations": [
                 "es",

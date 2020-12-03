@@ -2,4 +2,19 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
+
+let filterByName = (name , am) => {
+    let namesWithAm = name.filter(name => name.includes(am) )
+    return namesWithAm;
+
+}
+
+
+// function filterByName(theArray, theString){
+//   let filteredArray = theArray.filter(item => item.includes(theString))
+//   return filteredArray
+// }
+
 console.log(filterByName(names, 'am'));
+
+//let newArray = tasks.filter(tasks => tasks.done  );

@@ -7,7 +7,14 @@ let people = [
 ];
 
 let simplifier = function(person){
-	return person.name;
+    
+    var birthdate = person.birthDate;
+    var cur = new Date();
+    var diff = cur-birthdate; // This is the difference in milliseconds
+    var age = Math.floor(diff/31557600000); // Divide by 1000*60*60*24*365.25
+    
+    
+    return 'Hello, my name is ' + person.name + ' and I am ' + age;
 };
 
 console.log(people.map(simplifier));

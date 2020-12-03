@@ -442,7 +442,7 @@
         {
             "slug": "21.2-Filter-done-tasks",
             "title": "21.2-Filter-done-tasks",
-            "done": false,
+            "done": true,
             "path": "exercises/21.2-Filter-done-tasks",
             "translations": [
                 "es",

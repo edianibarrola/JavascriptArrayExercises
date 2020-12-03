@@ -10,13 +10,24 @@ let allColors = [
 
 function generateLI(color){
     // your code here
-    return '<li>'color'</li>';
+    return '<li>' + color.label + '</li>'
 }
-
+//array.filter(function(currentValue, index, arr), thisValue)
+    
 function filterColors(color){
     // your code here
+    //variablename = (condition) ? value1:value2
+    if ( color.sexy == true ) 
+    
+     return color.label
+     
     
 }
+    // function filterByName(theArray, theString){
+//   let filteredArray = theArray.filter(item => item.includes(theString))
+//   return filteredArray
+// }
+
 
 function generateHTMLFromArray(array){
 	

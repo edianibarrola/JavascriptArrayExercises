@@ -486,7 +486,7 @@
         {
             "slug": "24-Making-a-ul",
             "title": "24-Making-a-ul",
-            "done": false,
+            "done": true,
             "path": "exercises/24-Making-a-ul",
             "translations": [
                 "es",

@@ -14,7 +14,8 @@ function generateLI(color){
 }
 
 function filterColors(color){
-	// your code here
+    // your code here
+    
 }
 
 function generateHTMLFromArray(array){

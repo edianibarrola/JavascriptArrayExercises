@@ -4,13 +4,14 @@ let paramString=[];
 const matrixBuilder = (param) => {
     
     for (let i=0; i< param; i++){
-         paramString.push(param);
-        
-    }
-    for (let i=0; i< param; i++){
-    newArray[i] = paramString;
+         newArray.push([]);
+       
+         for (let j=0; j< param; j++){
     
+    newArray[i].push( Math.floor(Math.random()*2 ) );
+    } 
     }
+    
     return newArray;
 }
 
